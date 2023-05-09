@@ -47,6 +47,15 @@ class WorkerController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => \yii\filters\AccessControl::class,
+                'rules' => [
+                    [
+                        'allow' => true,
+                        'roles' => ['moebius_admin'],
+                    ],
+                ],
+            ],
             'verb' => [
                 'class' => VerbFilter::class,
                 'actions' => [
