@@ -4,9 +4,9 @@
  * @var string $content
  */
 
-use yii\bootstrap\Html;
-use yii\bootstrap\Nav;
-use yii\bootstrap\NavBar;
+use yii\bootstrap5\Html;
+use yii\bootstrap5\Nav;
+use yii\bootstrap5\NavBar;
 use yii\widgets\Breadcrumbs;
 use zhuravljov\yii\queue\monitor\assets\MainAsset;
 use zhuravljov\yii\queue\monitor\filters\JobFilter;
