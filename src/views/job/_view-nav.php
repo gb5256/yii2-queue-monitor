@@ -4,8 +4,8 @@
  * @var \zhuravljov\yii\queue\monitor\records\PushRecord $record
  */
 
-use yii\bootstrap\Html;
-use yii\bootstrap\Nav;
+use yii\bootstrap5\Html;
+use yii\bootstrap5\Nav;
 use zhuravljov\yii\queue\monitor\filters\JobFilter;
 use zhuravljov\yii\queue\monitor\Module;
 
