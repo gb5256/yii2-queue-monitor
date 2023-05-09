@@ -8,8 +8,8 @@
 namespace zhuravljov\yii\queue\monitor\widgets;
 
 use yii\base\Widget;
-use yii\bootstrap\BootstrapPluginAsset;
-use yii\bootstrap\Html;
+use yii\bootstrap5\BootstrapPluginAsset;
+use yii\bootstrap5\Html;
 
 /**
  * Class FilterBar
