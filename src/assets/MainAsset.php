@@ -7,9 +7,9 @@
 
 namespace zhuravljov\yii\queue\monitor\assets;
 
-use yii\bootstrap\BootstrapAsset;
-use yii\bootstrap\BootstrapPluginAsset;
-use yii\bootstrap\BootstrapThemeAsset;
+use yii\bootstrap5\BootstrapAsset;
+use yii\bootstrap5\BootstrapPluginAsset;
+use yii\bootstrap5\BootstrapThemeAsset;
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
 
