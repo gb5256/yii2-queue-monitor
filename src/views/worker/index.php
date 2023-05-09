@@ -4,7 +4,7 @@
  * @var WorkerFilter $filter
  */
 
-use yii\bootstrap\Html;
+use yii\bootstrap5\Html;
 use yii\data\ActiveDataProvider;
 use yii\grid\ActionColumn;
 use yii\grid\GridView;
