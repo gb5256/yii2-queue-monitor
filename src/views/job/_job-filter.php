@@ -4,7 +4,7 @@
  * @var JobFilter $filter
  */
 
-use yii\bootstrap\ActiveForm;
+use yii\bootstrap5\ActiveForm;
 use yii\helpers\Url;
 use zhuravljov\yii\queue\monitor\filters\JobFilter;
 use zhuravljov\yii\queue\monitor\Module;
