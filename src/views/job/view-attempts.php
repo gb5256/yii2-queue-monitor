@@ -4,7 +4,7 @@
  * @var \zhuravljov\yii\queue\monitor\records\PushRecord $record
  */
 
-use yii\bootstrap\Html;
+use yii\bootstrap5\Html;
 use yii\data\ActiveDataProvider;
 use yii\grid\GridView;
 use yii\helpers\VarDumper;
