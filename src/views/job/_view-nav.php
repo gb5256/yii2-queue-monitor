@@ -34,7 +34,7 @@ $module = Module::getInstance();
 ?>
 <div class="pull-right">
     <?php if ($module->canExecStop): ?>
-        <?= Html::a(Html::icon('stop') . ' ' . Module::t('main', 'Stop'), ['stop', 'id' => $record->id], [
+        <?= Html::a(Module::t('main', 'Stop'), ['stop', 'id' => $record->id], [
             'title' => Module::t('main', 'Mark as stopped.'),
             'data' => [
                 'method' => 'post',
@@ -45,7 +45,7 @@ $module = Module::getInstance();
         ]) ?>
     <?php endif ?>
     <?php if ($module->canPushAgain): ?>
-        <?= Html::a(Html::icon('repeat') . ' ' . Module::t('main', 'Push Again'), ['push', 'id' => $record->id], [
+        <?= Html::a(Module::t('main', 'Push Again'), ['push', 'id' => $record->id], [
             'title' => Module::t('main', 'Push again.'),
             'data' => [
                 'method' => 'post',
