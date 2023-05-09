@@ -9,7 +9,7 @@ namespace zhuravljov\yii\queue\monitor\assets;
 
 use yii\bootstrap5\BootstrapAsset;
 use yii\bootstrap5\BootstrapPluginAsset;
-use yii\bootstrap5\BootstrapThemeAsset;
+//use yii\bootstrap5\BootstrapThemeAsset;
 use yii\web\AssetBundle;
 use yii\web\YiiAsset;
 
@@ -30,6 +30,6 @@ class MainAsset extends AssetBundle
         YiiAsset::class,
         BootstrapAsset::class,
         BootstrapPluginAsset::class,
-        BootstrapThemeAsset::class,
+        //BootstrapThemeAsset::class,
     ];
 }
